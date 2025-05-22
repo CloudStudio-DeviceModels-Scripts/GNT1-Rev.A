@@ -14,7 +14,7 @@ function getConfiguration(config)
 
 function getEndpoints(deviceAddress, endpoints)
 {
-  var ocup = endpoints.addEndpoint("3", "Ocupación", endpointType.genericSensor);
+  var ocup = endpoints.addEndpoint("3oc2100", "Ocupación", endpointType.genericSensor);
       ocup.variableTypeId=1177;
 
    ocup.tags = 'Carga', 'Porcentaje';
